@@ -1,0 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: rgba(187, 247, 192, 0.726);
+}

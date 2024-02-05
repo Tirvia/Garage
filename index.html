@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.png">
+    <title>Garage menu</title>
+</head>
+<body>
+    <button id="myBtn" class="myBtn">Посмотреть на  зайчика еще раз</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <img src="./assets/rabbit1.jpg" class="animation" alt="animation">
+            <h1>Привет!<Br> Я - твой личный помощник в адаптации на официанта! <br> Следуй моим подсказкам, чтобы стать лучшим в работе!</h1>
+            <span class="close">&#9650;</span>
+        </div>
+    </div>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="skills-container">
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide active">
+                            <div class="slide-text">Встреча гостя</div>
+                            <div class="overlay">
+                                <div class="text"> &#10022; Ура! К нам пришел гость! Подай меню и проводи к столу.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide ">
+                            <div class="slide-text">Аперетив</div>
+                            <div class="overlay">
+                                <div class="text">Спроси желает ли гость что-нибудь сразу </div>
+                                <a href="./pages/aperetiv/index.html" class="nav-link">Вперед!</a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-text">Познакомься!</div>
+                            <div class="overlay">
+                                <div class="text">Гость должен знать своего официанта
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-text">Прими заказ</div>
+                            <div class="overlay">
+                                <div class="text">Давай научимся принимать заказ</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-text">Меню</div>
+                            <div class="overlay">
+                                <div class="text">Чтобы что-то рекомендовать гостю, нужно знать меню</div>
+                                <a href="./pages/menu/index.html" class="nav-link">Вперед!</a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-text">Вынос заказа</div>
+                            <div class="overlay">
+                                <div class="text">Как правильно вынести блюдо?</div>
+                            </div>
+                        </div>     
+                        <div class="slide">
+                            <div class="slide-text">Расчет и прощание</div>
+                            <div class="overlay">
+                                <div class="text">Расстанемся на хорошей ноте!</div>
+                            </div>
+                        </div>     
+                        <div class="navigation">
+                            <a class="prev">&#706;</a>
+                            <a class="next">&#707;</a>                        
+                        </div>                    
+                    </div>                    
+                   
+                    <div>
+                        <img src="./assets/rabbit2.jpg" class="image-rabbit" alt="rabbit2">
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: rgba(187, 247, 192, 0.726);
+    justify-content: center;
+    align-items: center;
+}
+.myBtn{
+    background-color:  rgb(29, 14, 6) ;
+    color: #fefefe;
+    z-index: 2;
+    position: fixed;
+    bottom: 10vh;
+    left: 70vw;
+    margin-right: 10vw;
+    cursor: pointer;
+    font-size: 80%;
+    display: none;
+}
+.modal {
+    display: block; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color:  rgb(29, 14, 6) ; 
+    background-color: rgba(0,0,0,0.7); 
+    font-size: 1.5vw;
+}  
+.modal-content {
+    background-color: #ecd2ab;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; 
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+} 
+.animation{
+    width: 16vw;
+}
